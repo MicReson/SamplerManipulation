@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 42.0, 85.0, 1185.0, 886.0 ],
+		"rect" : [ 1315.0, 85.0, 1210.0, 1280.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -2222,7 +2222,7 @@
 					"presentation_rect" : [ 350.0, 699.0, 468.851564824581146, 76.651567935943604 ],
 					"ruler" : 0,
 					"selectioncolor" : [ 1.0, 0.149019607843137, 0.149019607843137, 1.0 ],
-					"setmode" : 3,
+					"setmode" : 1,
 					"vticks" : 0,
 					"waveformcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -3379,7 +3379,7 @@
 					"quiet" : 1,
 					"ruler" : 0,
 					"selectioncolor" : [ 1.0, 0.149019607843137, 0.149019607843137, 1.0 ],
-					"setmode" : 3,
+					"setmode" : 1,
 					"waveformcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"zoom_orientation" : 1
 				}
@@ -3628,8 +3628,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 226.5, 796.0, 289.0, 36.0 ],
-					"text" : "limi~ 2 512 @dcblock 1 @threshold -0.3 @release 10."
+					"patching_rect" : [ 226.5, 796.0, 285.0, 36.0 ],
+					"text" : "limi~ 2 512 @dcblock 1 @threshold -0.3 @release 10. @lookahead 3"
 				}
 
 			}
